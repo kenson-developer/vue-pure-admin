@@ -1,127 +1,129 @@
 buttons:
   pureAccountSettings: Account
-  pureLoginOut: LoginOut
-  pureLogin: Login
-  pureOpenSystemSet: Open System Configs
-  pureReload: Reload
-  pureCloseCurrentTab: Close CurrentTab
-  pureCloseLeftTabs: Close LeftTabs
-  pureCloseRightTabs: Close RightTabs
-  pureCloseOtherTabs: Close OtherTabs
-  pureCloseAllTabs: Close AllTabs
-  pureContentFullScreen: Content FullScreen
-  pureContentExitFullScreen: Content ExitFullScreen
+  pureBackTop: BackTop
   pureClickCollapse: Collapse
   pureClickExpand: Expand
-  pureConfirm: Confirm
-  pureSwitch: Switch
   pureClose: Close
-  pureBackTop: BackTop
-  pureOpenText: Open
+  pureCloseAllTabs: Close AllTabs
+  pureCloseCurrentTab: Close CurrentTab
+  pureCloseLeftTabs: Close LeftTabs
+  pureCloseOtherTabs: Close OtherTabs
+  pureCloseRightTabs: Close RightTabs
   pureCloseText: Close
-  pureWatchMore: Watch More
-  pureMarkAsRead: Mark As Read
-search:
-  pureTotal: Total
-  pureHistory: History
-  pureCollect: Collect
-  pureDragSort: （Drag Sort）
-  pureEmpty: Empty
-  purePlaceholder: Search Menu
-panel:
-  pureSystemSet: System Configs
-  pureCloseSystemSet: Close System Configs
-  pureClearCacheAndToLogin: Clear cache and return to login page
-  pureClearCache: Clear Cache
-  pureThemeMode: Theme Mode
-  pureThemeModeLight: Light
-  pureThemeModeLightTip: Set sail freshly and light up the comfortable work interface
-  pureThemeModeDark: Dark
-  pureThemeModeDarkTip: Moonlight Overture, indulge in the tranquility and elegance of the night
-  pureThemeModeSystem: Auto
-  pureThemeModeSystemTip: Synchronize time, the interface naturally responds to morning and dusk
-  pureThemeColor: Theme Color
-  pureMenuLayout: Menu Layout
-  pureVerticalTip: The menu on the left is familiar and friendly
-  pureHorizontalTip: Top menu, concise overview
-  pureMixTip: Mixed menu, flexible
-  pureStretch: Stretch Page
-  pureStretchFixed: Fixed
-  pureStretchFixedTip: Compact pages make it easy to find the information you need
-  pureStretchCustom: Custom
-  pureStretchCustomTip: Minimum 1280, maximum 1600
-  pureTagsStyle: Tags Style
-  pureTagsStyleSmart: Smart
-  pureTagsStyleSmartTip: Smart tags add fun and brilliance
-  pureTagsStyleCard: Card
-  pureTagsStyleCardTip: Card tags for efficient browsing
-  pureTagsStyleChrome: Chrome
-  pureTagsStyleChromeTip: Chrome style is classic and elegant
-  pureInterfaceDisplay: Interface Display
-  pureGreyModel: Grey Model
-  pureWeakModel: Weak Model
-  pureHiddenTags: Hidden Tags
-  pureHiddenFooter: Hidden Footer
-  pureMultiTagsCache: MultiTags Cache
-menus:
-  pureHome: Home
+  pureConfirm: Confirm
+  pureContentExitFullScreen: Content ExitFullScreen
+  pureContentFullScreen: Content FullScreen
   pureLogin: Login
-  pureEmpty: Empty Page
-  pureTable: Table
-  pureSysManagement: System Manage
-  pureUser: User Manage
-  pureRole: Role Manage
-  pureSystemMenu: Menu Manage
-  pureDept: Dept Manage
-  pureSysMonitor: System Monitor
-  pureOnlineUser: Online User
-  pureLoginLog: Login Log
-  pureOperationLog: Operation Log
-  pureSystemLog: System Log
-  pureCodeMirror: CodeMirror
-  pureMarkdown: Markdown
-  pureEditor: Editor
+  pureLoginOut: LoginOut
+  pureMarkAsRead: Mark As Read
+  pureOpenSystemSet: Open System Configs
+  pureOpenText: Open
+  pureReload: Reload
+  pureSwitch: Switch
+  pureWatchMore: Watch More
+login:
+  pureAlipayLogin: Alipay Login
+  pureBack: Back
+  pureDefinite: Definite
+  pureForget: Forget Password?
+  pureGetVerifyCode: Get VerifyCode
+  pureInfo: Seconds
+  pureLogin: Login
+  pureLoginExpired: Login expired, please login again
+  pureLoginFail: Login Fail
+  pureLoginSuccess: Login Success
+  purePassWordDifferentReg: The two passwords do not match!
+  purePassWordReg: Please enter password
+  purePassWordRuleReg: The password format should be any combination of 8-18 digits
+  purePassWordSureReg: Please enter confirm password
+  purePassWordUpdateReg: Password has been updated
+  purePassword: Password
+  purePhone: Phone
+  purePhoneCorrectReg: Please enter the correct phone number format
+  purePhoneLogin: Phone Login
+  purePhoneReg: Please enter the phone
+  purePrivacyPolicy: Privacy Policy
+  pureQQLogin: QQ Login
+  pureQRCodeLogin: QRCode Login
+  pureReadAccept: I have read it carefully and accept
+  pureRegister: Register
+  pureRegisterSuccess: Regist Success
+  pureRemember: days no need to login
+  pureRememberInfo: >-
+    After checking and logging in, will automatically log in to the system
+    without entering your username and password within the specified number of
+    days.
+  pureSmsVerifyCode: SMS VerifyCode
+  pureSure: Sure Password
+  pureTest: Mock Test
+  pureThirdLogin: Third Login
+  pureTickPrivacy: Please tick Privacy Policy
+  pureTip: After scanning the code, click "Confirm" to complete the login
+  pureUsername: Username
+  pureUsernameReg: Please enter username
+  pureVerifyCode: VerifyCode
+  pureVerifyCodeCorrectReg: Please enter correct verify code
+  pureVerifyCodeReg: Please enter verify code
+  pureVerifyCodeSixReg: Please enter a 6-digit verify code
+  pureWeChatLogin: WeChat Login
+  pureWeiBoLogin: Weibo Login
+menus:
+  pureAble: Able
   pureAbnormal: Abnormal Page
-  purePageNotFound: "404"
-  pureAccessDenied: "403"
-  pureServerError: "500"
-  pureComponents: Components
-  pureDialog: Dialog
-  pureDrawer: Drawer
-  pureMessage: Message Tips
-  pureVideo: Video
-  pureSegmented: Segmented
-  pureWaterfall: Waterfall
-  pureMap: Map
-  pureDraggable: Draggable
-  pureSplitPane: Split Pane
-  pureText: Text Ellipsis
-  pureSlider: Slider
-  pureElButton: Button
-  pureButton: Button Animation
-  pureCheckButton: Check Button
-  pureCropping: Picture Cropping
+  pureAbout: About
+  pureAccessDenied: '403'
   pureAnimatecss: AnimateCss Selector
-  pureCountTo: Digital Animation
-  pureSelector: Scope Selector
-  pureFlowChart: Flow Chart
-  pureSeamless: Seamless Scroll
-  pureContextmenu: Context Menu
-  pureTypeit: Typeit
-  pureJsonEditor: JSON Editor
+  pureBarcode: Barcode
+  pureBoard: Paint Board
+  pureButton: Button Animation
+  pureCardList: Card List Page
+  pureCascader: Area Cascader
+  pureCheckButton: Check Button
+  pureCheckCard: CheckCard
+  pureChildMenuOverflow: Child Menu Overflow Show Tooltip Text
+  pureCodeMirror: CodeMirror
+  pureCollapse: Collapse
+  pureColorHuntDoc: ColorHunt
   pureColorPicker: Color Picker
   pureColorPickerPanel: Color PickerPanel
+  pureComponents: Components
+  pureContextmenu: Context Menu
+  pureCountTo: Digital Animation
+  pureCropping: Picture Cropping
+  pureDanmaku: Danmaku
   pureDatePicker: Date Picker
   pureDateTimePicker: DateTimePicker
-  pureTimePicker: TimePicker
-  pureTag: Tag
-  pureStatistic: Statistic
-  pureCollapse: Collapse
+  pureDebounce: Debounce & Throttle
+  pureDept: Dept Manage
+  pureDialog: Dialog
+  pureDownload: Download
+  pureDraggable: Draggable
+  pureDrawer: Drawer
+  pureEditor: Editor
+  pureElButton: Button
+  pureEmbeddedDoc: Docs Embedded
+  pureEmpty: Empty Page
+  pureEpDoc: Element-Plus
+  pureExcel: Export Excel
+  pureExternalDoc: Docs External
+  pureExternalLink: Vue-Pure-Admin
+  pureExternalPage: External Page
+  pureFail: Fail Page
+  pureFlowChart: Flow Chart
+  pureFormDesign: Form Design
   pureGanttastic: Gantt Chart
-  pureProgress: Progress
-  pureUpload: File Upload
-  pureCheckCard: CheckCard
-  pureMenus: MultiLevel Menu
+  pureGuide: Guide
+  pureHome: Home
+  pureIconSelect: Icon Select
+  pureInfiniteScroll: Table Infinite Scroll
+  pureJsonEditor: JSON Editor
+  pureLineTree: LineTree
+  pureList: List Page
+  pureLogin: Login
+  pureLoginLog: Login Log
+  pureMap: Map
+  pureMarkdown: Markdown
+  pureMemberManagement: Member Management
   pureMenu1: Menu1
   pureMenu1-1: Menu1-1
   pureMenu1-2: Menu1-2
@@ -129,130 +131,132 @@ menus:
   pureMenu1-2-2: Menu1-2-2
   pureMenu1-3: Menu1-3
   pureMenu2: Menu2
-  purePermission: Permission Manage
-  purePermissionPage: Page Permission
-  purePermissionButton: Button Permission
-  purePermissionButtonRouter: Route return button permission
-  purePermissionButtonLogin: Login interface return button permission
-  pureTabs: Tabs Operate
-  pureGuide: Guide
-  pureAble: Able
-  pureMenuTree: Menu Tree
-  pureVideoFrame: Video Frame Capture
-  pureWavesurfer: Audio Visualization
-  pureRipple: Ripple
-  pureMqtt: Mqtt Client
-  pureOptimize: Debounce、Throttle、Copy、Longpress Directives
-  pureVerify: Captcha
-  pureWatermark: Water Mark
-  purePrint: Print
-  pureDownload: Download
-  pureExternalPage: External Page
-  pureExternalDoc: Docs External
-  pureEmbeddedDoc: Docs Embedded
-  pureExternalLink: Vue-Pure-Admin
-  pureUtilsLink: Pure-Admin-Utils
-  pureColorHuntDoc: ColorHunt
-  pureUiGradients: UiGradients
-  pureEpDoc: Element-Plus
-  pureTailwindcssDoc: Tailwindcss
-  pureVueDoc: Vue3
-  pureViteDoc: Vite
-  purePiniaDoc: Pinia
-  pureRouterDoc: Vue-Router
-  pureAbout: About
-  pureResult: Result Page
-  pureSuccess: Success Page
-  pureFail: Fail Page
-  pureIconSelect: Icon Select
-  pureTimeline: Time Line
-  pureLineTree: LineTree
-  pureList: List Page
-  pureCardList: Card List Page
-  pureDebounce: Debounce & Throttle
-  pureFormDesign: Form Design
-  pureBarcode: Barcode
-  pureQrcode: Qrcode
-  pureCascader: Area Cascader
-  pureSwiper: Swiper Plugin
-  pureVirtualList: Virtual List
-  purePdf: PDF Preview
-  pureExcel: Export Excel
-  pureInfiniteScroll: Table Infinite Scroll
-  pureSensitive: Sensitive Filter
-  purePinyin: PinYin
-  pureDanmaku: Danmaku
-  pureSchemaForm: Form
-  pureTableBase: Base Usage
-  pureTableHigh: High Usage
-  pureTableEdit: Edit Usage
-  pureVxeTable: Virtual Usage
-  pureBoard: Paint Board
-  pureMindMap: Mind Map
   pureMenuOverflow: Menu Overflow Show Tooltip Text
-  pureChildMenuOverflow: Child Menu Overflow Show Tooltip Text
+  pureMenuTree: Menu Tree
+  pureMenus: MultiLevel Menu
+  pureMessage: Message Tips
+  pureMindMap: Mind Map
+  pureMqtt: Mqtt Client
+  pureOnlineUser: Online User
+  pureOperationLog: Operation Log
+  pureOptimize: Debounce、Throttle、Copy、Longpress Directives
+  purePageNotFound: '404'
+  purePdf: PDF Preview
+  purePermission: Permission Manage
+  purePermissionButton: Button Permission
+  purePermissionButtonLogin: Login interface return button permission
+  purePermissionButtonRouter: Route return button permission
+  purePermissionPage: Page Permission
+  purePiniaDoc: Pinia
+  purePinyin: PinYin
+  purePrint: Print
+  pureProgress: Progress
+  pureQrcode: Qrcode
+  pureResult: Result Page
+  pureRipple: Ripple
+  pureRole: Role Manage
+  pureRouterDoc: Vue-Router
+  pureSchemaForm: Form
+  pureSeamless: Seamless Scroll
+  pureSegmented: Segmented
+  pureSelector: Scope Selector
+  pureSensitive: Sensitive Filter
+  pureServerError: '500'
+  pureSlider: Slider
+  pureSplitPane: Split Pane
+  pureStatistic: Statistic
+  pureSuccess: Success Page
+  pureSwiper: Swiper Plugin
+  pureSysManagement: System Manage
+  pureSysMonitor: System Monitor
+  pureSystemLog: System Log
+  pureSystemMenu: Menu Manage
+  pureTable: Table
+  pureTableBase: Base Usage
+  pureTableEdit: Edit Usage
+  pureTableHigh: High Usage
+  pureTabs: Tabs Operate
+  pureTag: Tag
+  pureTailwindcssDoc: Tailwindcss
+  pureText: Text Ellipsis
+  pureTimePicker: TimePicker
+  pureTimeline: Time Line
+  pureTypeit: Typeit
+  pureUiGradients: UiGradients
+  pureUpload: File Upload
+  pureUser: User Manage
+  pureUtilsLink: Pure-Admin-Utils
+  pureVerify: Captcha
+  pureVideo: Video
+  pureVideoFrame: Video Frame Capture
+  pureVirtualList: Virtual List
+  pureViteDoc: Vite
+  pureVueDoc: Vue3
+  pureVxeTable: Virtual Usage
+  pureWaterfall: Waterfall
+  pureWatermark: Water Mark
+  pureWavesurfer: Audio Visualization
+panel:
+  pureClearCache: Clear Cache
+  pureClearCacheAndToLogin: Clear cache and return to login page
+  pureCloseSystemSet: Close System Configs
+  pureGreyModel: Grey Model
+  pureHiddenFooter: Hidden Footer
+  pureHiddenTags: Hidden Tags
+  pureHorizontalTip: Top menu, concise overview
+  pureInterfaceDisplay: Interface Display
+  pureMenuLayout: Menu Layout
+  pureMixTip: Mixed menu, flexible
+  pureMultiTagsCache: MultiTags Cache
+  pureStretch: Stretch Page
+  pureStretchCustom: Custom
+  pureStretchCustomTip: Minimum 1280, maximum 1600
+  pureStretchFixed: Fixed
+  pureStretchFixedTip: Compact pages make it easy to find the information you need
+  pureSystemSet: System Configs
+  pureTagsStyle: Tags Style
+  pureTagsStyleCard: Card
+  pureTagsStyleCardTip: Card tags for efficient browsing
+  pureTagsStyleChrome: Chrome
+  pureTagsStyleChromeTip: Chrome style is classic and elegant
+  pureTagsStyleSmart: Smart
+  pureTagsStyleSmartTip: Smart tags add fun and brilliance
+  pureThemeColor: Theme Color
+  pureThemeMode: Theme Mode
+  pureThemeModeDark: Dark
+  pureThemeModeDarkTip: Moonlight Overture, indulge in the tranquility and elegance of the night
+  pureThemeModeLight: Light
+  pureThemeModeLightTip: Set sail freshly and light up the comfortable work interface
+  pureThemeModeSystem: Auto
+  pureThemeModeSystemTip: Synchronize time, the interface naturally responds to morning and dusk
+  pureVerticalTip: The menu on the left is familiar and friendly
+  pureWeakModel: Weak Model
+search:
+  pureCollect: Collect
+  pureDragSort: （Drag Sort）
+  pureEmpty: Empty
+  pureHistory: History
+  purePlaceholder: Search Menu
+  pureTotal: Total
 status:
   pureLoad: Loading...
   pureMessage: Message
-  pureNotify: Notify
-  pureTodo: Todo
   pureNoMessage: No Message
   pureNoNotify: No Notify
   pureNoTodo: No Todo
-login:
-  pureUsername: Username
-  purePassword: Password
-  pureVerifyCode: VerifyCode
-  pureRemember: days no need to login
-  pureRememberInfo: After checking and logging in, will automatically log in to the system without entering your username and password within the specified number of days.
-  pureSure: Sure Password
-  pureForget: Forget Password?
-  pureLogin: Login
-  pureThirdLogin: Third Login
-  purePhoneLogin: Phone Login
-  pureQRCodeLogin: QRCode Login
-  pureRegister: Register
-  pureWeChatLogin: WeChat Login
-  pureAlipayLogin: Alipay Login
-  pureQQLogin: QQ Login
-  pureWeiBoLogin: Weibo Login
-  purePhone: Phone
-  pureSmsVerifyCode: SMS VerifyCode
-  pureBack: Back
-  pureTest: Mock Test
-  pureTip: After scanning the code, click "Confirm" to complete the login
-  pureDefinite: Definite
-  pureLoginSuccess: Login Success
-  pureLoginFail: Login Fail
-  pureRegisterSuccess: Regist Success
-  pureTickPrivacy: Please tick Privacy Policy
-  pureReadAccept: I have read it carefully and accept
-  purePrivacyPolicy: Privacy Policy
-  pureGetVerifyCode: Get VerifyCode
-  pureInfo: Seconds
-  pureUsernameReg: Please enter username
-  purePassWordReg: Please enter password
-  pureVerifyCodeReg: Please enter verify code
-  pureVerifyCodeCorrectReg: Please enter correct verify code
-  pureVerifyCodeSixReg: Please enter a 6-digit verify code
-  purePhoneReg: Please enter the phone
-  purePhoneCorrectReg: Please enter the correct phone number format
-  purePassWordRuleReg: The password format should be any combination of 8-18 digits
-  purePassWordSureReg: Please enter confirm password
-  purePassWordDifferentReg: The two passwords do not match!
-  purePassWordUpdateReg: Password has been updated
-  pureLoginExpired: Login expired, please login again
+  pureNotify: Notify
+  pureTodo: Todo
 tableBar:
-  pureList: List
-  pureLarge: Large
-  pureDefault: Default
-  pureSmall: Small
-  pureColumnSettings: ColumnSettings
   pureCollapse: Collapse
-  pureExpand: Expand
-  pureRefresh: Refresh
-  pureDensity: Density
   pureColumnDisplay: ColumnDisplay
-  pureReset: Reset
+  pureColumnSettings: ColumnSettings
+  pureDefault: Default
+  pureDensity: Density
   pureExitFullScreen: ExitFullScreen
+  pureExpand: Expand
   pureFullScreen: FullScreen
+  pureLarge: Large
+  pureList: List
+  pureRefresh: Refresh
+  pureReset: Reset
+  pureSmall: Small

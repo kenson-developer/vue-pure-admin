@@ -1,4 +1,5 @@
 import { http } from "@/utils/http";
+import { toRaw } from "vue";
 
 export type UserResult = {
   code: number;
@@ -72,9 +73,23 @@ type ResultTable = {
   };
 };
 
+type BackendLoginResult = {
+  errno: number;
+  msg: string;
+  data: {
+    adminInfo: {
+      nickName: string;
+      avatar: string;
+    };
+    token: string;
+  };
+};
+
 /** 登录 */
 export const getLogin = (data?: object) => {
-  return http.request<UserResult>("post", "/login", { data });
+  return http.request<BackendLoginResult>("post", "/admin/auth/login", {
+    data
+  });
 };
 
 /** 刷新`token` */
@@ -90,4 +105,22 @@ export const getMine = (data?: object) => {
 /** 账户设置-个人安全日志 */
 export const getMineLogs = (data?: object) => {
   return http.request<ResultTable>("get", "/mine-logs", { data });
+};
+
+type UserListResult = {
+  errno: number;
+  msg: string;
+  data: {
+    limit: number;
+    page: number;
+    pages: number;
+    total: number;
+    list: Array<any>;
+  };
+};
+
+export const getUserList = (data?: object) => {
+  return http.request<UserListResult>("get", "/admin/user/list", {
+    params: toRaw(data)
+  });
 };

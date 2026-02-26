@@ -8,7 +8,7 @@ import {
   storageLocal
 } from "../utils";
 import {
-  type UserResult,
+  type BackendLoginResult,
   type RefreshTokenResult,
   getLogin,
   refreshTokenApi
@@ -76,15 +76,40 @@ export const useUserStore = defineStore("pure-user", {
       this.loginDay = Number(value);
     },
     /** 登入 */
-    async loginByUsername(data) {
-      return new Promise<UserResult>((resolve, reject) => {
-        getLogin(data)
-          .then(data => {
-            if (data.code === 0) {
-              setToken(data.data);
-              resolve(data);
+    async loginByUsername(loginForm) {
+      return new Promise<BackendLoginResult>((resolve, reject) => {
+        getLogin(loginForm)
+          .then(res => {
+            if (res.errno === 0) {
+              const backendData = res.data;
+
+              // 1. 从后台数据提取你需要的信息
+              const avatar = backendData.adminInfo.avatar;
+              const nickname = backendData.adminInfo.nickName;
+              const accessToken = backendData.token;
+
+              // 2. 这里后端没给过期时间，你可以先约定一个，比如 2 小时后过期
+              const expires = new Date(Date.now() + 2 * 60 * 60 * 1000);
+
+              // 3. 后端暂时没返回角色/权限，可以先写死，后面你后端补上再来改
+              const roles = ["admin"];
+              const permissions = ["*:*:*"];
+
+              // 4. 组装成 setToken 需要的结构
+              setToken({
+                accessToken,
+                refreshToken: accessToken, // 没有单独的 refreshToken，可以先用同一个或留空
+                expires,
+                avatar,
+                username: loginForm.username, // 前端表单里的用户名
+                nickname,
+                roles,
+                permissions
+              });
+
+              resolve(res);
             } else {
-              reject(data.message);
+              reject(res.msg);
             }
           })
           .catch(error => {

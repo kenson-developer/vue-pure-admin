@@ -8,6 +8,24 @@ import { system, monitor, permission, frame, tabs } from "@/router/enums";
  * common：普通角色
  */
 
+const userRouter = {
+  path: "/user",
+  meta: {
+    title: "menus.pureUser"
+  },
+  children: [
+    {
+      path: "/user/index",
+      name: "User",
+      component: "src/views/user/index.vue",
+      meta: {
+        title: "menus.pureMemberManagement",
+        showParent: true
+      }
+    }
+  ]
+};
+
 const systemManagementRouter = {
   path: "/system",
   meta: {
@@ -329,6 +347,7 @@ export default defineFakeRoute([
         code: 0,
         message: "操作成功",
         data: [
+          userRouter,
           systemManagementRouter,
           systemMonitorRouter,
           permissionRouter,
