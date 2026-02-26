@@ -73,7 +73,7 @@ type ResultTable = {
   };
 };
 
-type BackendLoginResult = {
+export type BackendLoginResult = {
   errno: number;
   msg: string;
   data: {
